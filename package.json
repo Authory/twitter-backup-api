@@ -1,0 +1,29 @@
+{
+  "name": "authory-twitter-backup-api-demo",
+  "version": "1.0.0",
+  "description": "Demo for the twitter-backup API provided by Authory.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Authory/twitter-backup-api.git"
+  },
+  "keywords": [
+    "Authory",
+    "Twitter",
+    "Backup"
+  ],
+  "author": "Emanuel Jöbstl <emanuel@authory.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Authory/twitter-backup-api/issues"
+  },
+  "homepage": "https://github.com/Authory/twitter-backup-api#readme",
+  "dependencies": {
+    "@types/node": "^18.11.9",
+    "node-fetch": "^3.3.0"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "target": "es2020",
+    "module": "ESNext",
+    "lib": ["es2020"],
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "rootDir": "./"
+  },
+  "exclude": [
+    "node_modules",
+    ".git"
+  ]
+}
