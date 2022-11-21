@@ -90,11 +90,11 @@ export interface PostAuthorInfo {
 }
 
 /**
- * Post.
+ * Post, a single tweet.
  */
 export interface Post {
   html: string;
-  by: string | PostAuthorInfo;
+  by: PostAuthorInfo;
   attachment: PostAttachmentDetail | PostAttachmentDetail[];
   type: ContentDetailType.Post;
 }
@@ -104,7 +104,7 @@ export interface Post {
  */
 export interface Thread {
   type: ContentDetailType.Thread
-  by: string | PostAuthorInfo;
+  by: PostAuthorInfo;
   posts: Post[]
 }
 

@@ -4,5 +4,5 @@ This repository shows how to use the API of our [twitter backup tool](https://tw
 
 Please check [api.ts](./api.ts) for an example on how to use the API.
 
-Please check [api.ts](./exported-archive.ts) for an example on how to use the JSON export.
+Please check [exported-archive.ts](./exported-archive.ts) for an example on how to use the JSON export.
 
