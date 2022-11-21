@@ -3,6 +3,8 @@ import * as fs from 'fs'
 
 // Twitter backup - exported JSON demo.
 // 
+// Media files exposed via the export will point to their original files on twitter.
+// 
 // Usage: ts-node exported-archive.ts
 
 async function processArchive(file: string) {
@@ -14,4 +16,5 @@ async function processArchive(file: string) {
   }
 }
 
+// Pass your file name.
 processArchive("02e915a83d437ad9.json")
